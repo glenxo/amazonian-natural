@@ -31,9 +31,9 @@ html::-webkit-scrollbar-thumb {
 }
 
 body {
-  background: url(https://scntent.fpac1-1.fna.fbcdn.net/v/t1.18169-9/22195297_1953089481571682_3404128418516432172_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=hGG-evs0zpgAX88F2EA&_nc_ht=scontent.fpac1-1.fna&oh=00_AfDAKCLQcGI1ttAMF5Y8DgYTdMhoaMWMp1BmxSxP8gozkQ&oe=639DBDDA) no-repeat;
+  background: url(https://images.pexels.com/photos/4709443/pexels-photo-4709443.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat;
   background-size: cover;
-  background-image: linear-gradient(to right, rgb(255, 192, 97) , rgb(0, 255, 200));  background-position: center;
+  background-image: linear-gradient(to right, rgba(238, 162, 75, 0.822) , rgba(218, 166, 87, 0.466) , #79aaa4c5);  background-position: center;
   background-attachment: fixed;
 }
 
@@ -54,7 +54,7 @@ section {
 }
 
 .heading span {
-  color: #eba351;
+  color: #fa9600;
 }
 
 .btn {
@@ -62,18 +62,18 @@ section {
   display: inline-block;
   border-radius: 5rem;
   padding: 1.2rem 3rem;
-  border: 0.2rem solid #444;
+  border: 0.2rem solid #20bdad;
   cursor: pointer;
   background: none;
-  color: #444;
+  color: #448b84;
   font-size: 2rem;
   text-transform: capitalize;
 }
 
 .btn:hover {
-  border-color: #edad2d;
-  color: #fff;
-  background: #edad2d;
+  border-color: #ebac00;
+  color: rgb(236, 219, 199);
+  background: #45d1c3;
 }
 
 .header {
@@ -82,7 +82,7 @@ section {
   left: -31rem;
   height: 100%;
   width: 30rem;
-  background: #edad2d;
+  background: #eda02d73;
   padding: 2rem;
   z-index: 1000;
 }
@@ -92,9 +92,9 @@ section {
 }
 
 .header .logo {
-  font-size: 2.5rem;
-  color: #fff;
-  font-weight: bolder;
+  font-size: 3rem;
+  color: #3b635fde;
+  font-weight: 1000;
 }
 
 .header .navbar {
@@ -105,7 +105,7 @@ section {
   display: block;
   margin: 2rem 0;
   font-size: 2rem;
-  color: #fff;
+  color: #487772de;
 }
 
 .header .navbar a:hover {
@@ -120,16 +120,17 @@ section {
 .header .share a {
   height: 5rem;
   width: 5rem;
+  border-radius: 8%;
   line-height: 5rem;
   font-size: 2rem;
-  color: #444;
-  background: #fff;
+  color: #5e9c96de;
+  background: rgb(255, 156, 8);
   margin: 0 .3rem;
 }
 
 .header .share a:hover {
-  background: #444;
-  color: #fff;
+  background: rgb(60, 155, 131);
+  color: rgb(241, 154, 71);
 }
 
 .header .credit {
@@ -141,11 +142,12 @@ section {
 }
 
 #menu-btn {
+  border-radius: 6%;
   position: fixed;
   top: 2rem;
   left: 2rem;
-  background: #edad2d;
-  color: #fff;
+  background: #4ac2b6;
+  color: rgba(255, 224, 189, 0.705);
   height: 5rem;
   width: 5rem;
   line-height: 5rem;
@@ -182,12 +184,12 @@ section {
 
 .banner .content span {
   font-size: 2.5rem;
-  color: #edad2d;
+  color: #407a74;
 }
 
 .banner .content h3 {
-  font-size: 4rem;
-  color: #444;
+  font-size: 7rem;
+  color: #58b6ab;
   text-transform: capitalize;
   padding-top: 1rem;
 }
@@ -195,7 +197,7 @@ section {
 .banner .content p {
   padding: 1rem 0;
   font-size: 1.7rem;
-  color: #666;
+  color: #407a74;
   line-height: 2;
   padding: 1rem 0;
 }
@@ -207,6 +209,7 @@ section {
 }
 
 .banner .image img {
+  border-radius: 4%;
   display: flex;
   width: 100%;
 }
@@ -279,7 +282,7 @@ section {
   right: 2rem;
   font-size: 4rem;
   cursor: pointer;
-  color: #666;
+  color: rgb(206, 8, 8);
 }
 
 .products-preview-container .product-preview .fa-times:hover {
@@ -353,12 +356,13 @@ section {
 .service .box i {
   font-size: 4rem;
   margin-bottom: 1rem;
-  color: #edad2d;
+  color: #fa8e00;
+  
 }
 
 .service .box p {
   font-size: 2rem;
-  color: #666;
+  color: #408574;
   line-height: 2;
   padding: 1rem 0;
 }
@@ -370,13 +374,13 @@ section {
 
 .reviews .slide i {
   font-size: 4rem;
-  color: #666;
+  color: #408574;
   margin-bottom: 1rem;
 }
 
 .reviews .slide p {
   font-size: 1.5rem;
-  color: #666;
+  color: #408574;
   line-height: 2;
   padding: 1rem 0;
 }
@@ -390,7 +394,7 @@ section {
 
 .reviews .slide h3 {
   font-size: 1.7rem;
-  color: #444;
+  color: #408574;
   text-transform: capitalize;
 }
 
@@ -419,8 +423,11 @@ section {
 .contact .row form .box {
   padding: 2rem 0;
   margin-bottom: 1rem;
+  border-radius: 2%;
+  color: #4a7e6e;
+  background-color: #f8c24c;
   font-size: 1.6rem;
-  border-bottom: 0.2rem solid #444;
+  border-bottom: 0.2rem #408574;
   width: 100%;
 }
 
@@ -441,14 +448,14 @@ section {
 
 .contact .row .contact-info h3 {
   padding-bottom: 1rem;
-  font-size: 3rem;
-  color: #444;
+  font-size: 4rem;
+  color: #408574;
   text-transform: capitalize;
 }
 
 .contact .row .contact-info .grapgh {
   font-size: 1.4rem;
-  color: #666;
+  color: #408574;
   line-height: 2;
   padding: 1rem 0;
 }
@@ -471,13 +478,13 @@ section {
   border-radius: 50%;
   font-size: 2rem;
   background: #edad2d;
-  color: rgb(30, 58, 35);
+  color: #408574;
   text-align: center;
 }
 
 .contact .row .contact-info .icons p {
   font-size: 1.5rem;
-  color: #666;
+  color: #408574;
   line-height: 2;
   padding: 1rem 0;
   padding: 0;
@@ -490,7 +497,7 @@ section {
 .contact .row .contact-info .share a {
   font-size: 3rem;
   margin-right: 2rem;
-  color: #666;
+  color: #408574;
 }
 
 .contact .row .contact-info .share a:hover {
@@ -502,8 +509,8 @@ section {
     padding-left: 0;
   }
   header.active {
-    -webkit-box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
-            box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: 0 0 0 100vw #000000cc;
+            box-shadow: 0 0 0 100vw #408574;
   }
 }
 
