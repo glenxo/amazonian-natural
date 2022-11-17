@@ -31,9 +31,9 @@ html::-webkit-scrollbar-thumb {
 }
 
 body {
-  background: url(../images/bg.jpg) no-repeat;
+  background: url(https://scntent.fpac1-1.fna.fbcdn.net/v/t1.18169-9/22195297_1953089481571682_3404128418516432172_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=hGG-evs0zpgAX88F2EA&_nc_ht=scontent.fpac1-1.fna&oh=00_AfDAKCLQcGI1ttAMF5Y8DgYTdMhoaMWMp1BmxSxP8gozkQ&oe=639DBDDA) no-repeat;
   background-size: cover;
-  background-position: center;
+  background-image: linear-gradient(to right, rgb(255, 192, 97) , rgb(0, 255, 200));  background-position: center;
   background-attachment: fixed;
 }
 
@@ -48,13 +48,13 @@ section {
 .heading {
   text-align: center;
   font-size: 4rem;
-  color: #444;
+  color: rgb(101, 194, 181);
   text-transform: capitalize;
   margin-bottom: 3rem;
 }
 
 .heading span {
-  color: #edad2d;
+  color: #eba351;
 }
 
 .btn {
@@ -211,9 +211,7 @@ section {
   width: 100%;
 }
 
-.products i {
-  
-}
+
 
 .products .slide {
     display: flex;
