@@ -50,6 +50,12 @@ p {
   font-size: 1.5em;
 }
 
+h4 {
+  font-size: 4em;
+  font-weight: 600;
+}
+
+
 .heading {
   text-align: center;
   font-size: 4rem;
@@ -221,9 +227,26 @@ p {
 
 
 
-.products .slide {
-    display: flex;
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
   text-align: center;
+  background: #ffbabaec;
+  margin: 20px;
+  box-sizing: border-box;
+
+}
+
+
+
+.products .container img {
+  background: #ffdabaec;
+  border: 4px solid brown;
+  height: 600px;
 }
 
 .products .slide img {
