@@ -45,6 +45,11 @@ section {
   padding: 5rem 9%;
 }
 
+p {
+  color: #2f6120;
+  font-size: 1.5em;
+}
+
 .heading {
   text-align: center;
   font-size: 4rem;
@@ -272,7 +277,6 @@ section {
   gap: 3rem;
   background: #edad2d;
   border-radius: 2%;
-
   padding: 9%;
   position: relative;
   display: none;
@@ -311,13 +315,13 @@ section {
 
 .products-preview-container .product-preview .content h3 {
   font-size: 5rem;
-  color: rgb(255, 4, 4);
+  color: #5bb9b9;
   text-transform: capitalize;
 }
 
 .products-preview-container .product-preview .content p {
   font-size: 2rem;
-  color: rgb(24, 141, 112);
+  color: #4c9b9b;
   line-height: 2;
   padding: 1rem 0;
 }
@@ -328,7 +332,7 @@ section {
 }
 
 .products-preview-container .product-preview .content .stars i {
-  color: #5d9c39;
+  color: #5bb9b9;
 }
 
 .products-preview-container .product-preview .content .stars span {
