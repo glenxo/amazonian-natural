@@ -87,7 +87,7 @@ p {
   left: -31rem;
   height: 100%;
   width: 30rem;
-  background: #eda02d;
+  background: #f5b350;
   padding: 2rem;
   z-index: 1000;
 }
@@ -97,8 +97,8 @@ p {
 }
 
 .header .logo {
-  font-size: 3rem;
-  color: #3b635f;
+  font-size: 4.3rem;
+  color: #3ea399;
   font-weight: 1000;
 }
 
