@@ -270,7 +270,9 @@ section {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 3rem;
-  background: #fff;
+  background: #edad2d;
+  border-radius: 2%;
+
   padding: 9%;
   position: relative;
   display: none;
@@ -308,14 +310,14 @@ section {
 }
 
 .products-preview-container .product-preview .content h3 {
-  font-size: 3rem;
-  color: #444;
+  font-size: 5rem;
+  color: rgb(255, 4, 4);
   text-transform: capitalize;
 }
 
 .products-preview-container .product-preview .content p {
-  font-size: 1.5rem;
-  color: #666;
+  font-size: 2rem;
+  color: rgb(24, 141, 112);
   line-height: 2;
   padding: 1rem 0;
 }
@@ -326,7 +328,7 @@ section {
 }
 
 .products-preview-container .product-preview .content .stars i {
-  color: #edad2d;
+  color: #5d9c39;
 }
 
 .products-preview-container .product-preview .content .stars span {
