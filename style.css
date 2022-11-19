@@ -31,7 +31,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 body {
-  background: url(https://images.pexels.com/photos/4709443/pexels-photo-4709443.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat;
+  background: url(/media/45-degree-fabric-dark.png) no-repeat;
   background-size: cover;
   background-image: linear-gradient(to right, rgba(238, 162, 75, 0.822) , rgba(218, 166, 87, 0.466) , #79aaa4c5);  background-position: center;
   background-attachment: fixed;
@@ -66,6 +66,21 @@ h4 {
   font-size: 5rem;
 
 }
+
+.imgBx1 {
+  justify-content: center;
+  background-image: url(/media/Ellipse\ 1.png);
+  background-position: 80%;
+
+}
+
+.imgBx2 {
+  justify-content: center;
+  background-image: url(/media/Ellipse\ 2.png);
+  background-position: 80%;
+
+}
+
 
 .heading {
   text-align: center;
