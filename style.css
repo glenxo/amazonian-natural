@@ -55,13 +55,24 @@ h4 {
   font-weight: 600;
 }
 
+.title1 {
+  color: #65c2b5;
+  font-size: 5rem;
+
+}
+
+.title2 {
+  color: #fa9600;
+  font-size: 5rem;
+
+}
 
 .heading {
   text-align: center;
-  font-size: 4rem;
-  color: rgb(101, 194, 181);
+  font-size: 8rem;
+  color: #65c2b5;
   text-transform: capitalize;
-  margin-bottom: 3rem;
+  margin-bottom: 1.2em;
 }
 
 .heading span {
