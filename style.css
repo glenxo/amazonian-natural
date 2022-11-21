@@ -75,15 +75,15 @@ img {
 
 }
 
-.container {
+/*.container {
   border: 4px solid brown;
   margin: 4px solid rgb(42, 165, 93);
   padding: 4px solid rgb(144, 42, 165);
-}
+}*/
 
 
 .imgBx1 {
-  border: 4px solid rgb(165, 42, 165);
+  /*border: 4px solid rgb(165, 42, 165);*/
   justify-content: center;
   background-image: url(media/Ellipse\ 1.png);
   background-position: center;
@@ -92,7 +92,7 @@ img {
 }
 
 .imgBx2 {
-  border: 4px solid rgb(52, 165, 42);
+  /*border: 4px solid rgb(52, 165, 42);*/
   justify-content: center;
   background-image: url(media/Ellipse\ 2.png);
   background-position: center;
