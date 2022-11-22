@@ -40,24 +40,6 @@ document.querySelectorAll('.products-preview-container .product-preview .fa-time
   };
 });
 
-var swiper = new Swiper(".products-slider", {
-  loop:true,
-  spaceBetween: 20,
-  grabCursor:true,
-  centeredSlides: true,
-  breakpoints: {
-    0: {
-      slidesPerView: 1,
-    },
-    768: {
-      slidesPerView: 2,
-    },
-    991: {
-      slidesPerView: 3,
-    },
-  },
-});
-
 var swiper = new Swiper(".reviews-slider", {
   loop:true,
   spaceBetween: 20,
