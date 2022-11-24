@@ -25,7 +25,7 @@ document.querySelectorAll('.products .slide .btn').forEach(detailBtn =>{
     prodcutPreview.forEach(preview =>{
       let target = preview.getAttribute('data-target');
       if(name == target){
-       preview.style.display = 'flex';
+      preview.style.display = 'flex';
       };
     });
   };
@@ -38,6 +38,24 @@ document.querySelectorAll('.products-preview-container .product-preview .fa-time
       closePreview.style.display = 'none';
     });
   };
+});
+
+var swiper = new Swiper(".products-slider", {
+  loop:true,
+  spaceBetween: 20,
+  grabCursor:true,
+  centeredSlides: true,
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    991: {
+      slidesPerView: 3,
+    },
+  },
 });
 
 var swiper = new Swiper(".reviews-slider", {
@@ -57,3 +75,4 @@ var swiper = new Swiper(".reviews-slider", {
     },
   },
 });
+
