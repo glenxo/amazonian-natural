@@ -45,6 +45,7 @@ section {
   padding: 5rem 9%;
 }
 
+
 p {
   color: #2f6120;
   font-size: 1.5em;
@@ -71,12 +72,12 @@ img {
   align-items: center;
   justify-content: center;
   background-repeat: no-repeat;
-  background-size: 1600px 500px;
+  background-size: cover;
   background-position: center;
   border-radius: 2%;
   text-align: center;
-  padding: 0%;
-  background-image: url(media/amzon-1.jpg);
+  padding: 18%;
+  background-image: url(media/amazon-1.jpg);
   margin-bottom: 18em;
 
 }
