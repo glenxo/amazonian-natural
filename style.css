@@ -453,8 +453,8 @@ width: auto;
 }
 
 .swiper {
-  width: 600px;
-  height: 300px;
+  width: 800px;
+  height: 400px;
 
 }
 
@@ -633,6 +633,27 @@ width: auto;
   }
 }
 
+@media (max-width: 20px) { 
+  .swiper .swiper-slide-active {
+    max-width: 60px;
+    max-height: 30px;
+    width: 60px;
+    height: 30px;
+  
+  }
+}
+
+@media (max-width: 30px) { 
+  .swiper-slide-active {
+    max-width: 60px;
+    max-height: 30px;
+    width: 60px;
+    height: 30px;
+  
+  }
+}
+
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;
@@ -640,6 +661,10 @@ width: auto;
   section {
     padding: 3rem 2rem;
   }
+} 
+
+@media (max-width: 70px) {
+  
 }
 
 @media (max-width: 450px) {
