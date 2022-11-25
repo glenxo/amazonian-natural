@@ -2,7 +2,7 @@ let my_element = document.createElement('h1');
 let my_span = document.createElement('span');
 let my_div = document.createElement('div');
 let message;
-message = 'Bienvenido a Amazonian Natural!';
+message = 'Pagina en mantenimiento no ppublica';
 let button;
 let box;
 
