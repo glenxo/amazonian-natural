@@ -7,9 +7,6 @@ let button;
 let box;
 
 
-
-    
-
 alert(message);
 
 my_element.appendChild(my_span);
