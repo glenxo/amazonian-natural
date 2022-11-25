@@ -2,7 +2,7 @@ let my_element = document.createElement('h1');
 let my_span = document.createElement('span');
 let my_div = document.createElement('div');
 let message;
-message = 'Pagina en mantenimiento no ppublica';
+message = 'Pagina en mantenimiento no publica';
 let button;
 let box;
 
