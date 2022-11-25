@@ -1,3 +1,49 @@
+let my_element = document.createElement('h1');
+let my_span = document.createElement('span');
+let my_div = document.createElement('div');
+let message;
+message = 'La pagina esta en mantenimiento pero presiona OK y revisa igual...dale pa ve.';
+let button;
+let box;
+
+
+
+    
+
+alert(message);
+
+my_element.appendChild(my_span);
+
+my_element.appendChild(my_div);
+
+my_element.classList.add('custom_class');
+
+document.body.appendChild(my_element);  
+
+
+
+const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    direction: 'vertical',
+    loop: true,
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+    // And if we need scrollbar
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  });
+
 let menu = document.querySelector('#menu-btn');
 let header = document.querySelector('.header');
 
@@ -38,41 +84,5 @@ document.querySelectorAll('.products-preview-container .product-preview .fa-time
       closePreview.style.display = 'none';
     });
   };
-});
-
-var swiper = new Swiper(".products-slider", {
-  loop:true,
-  spaceBetween: 20,
-  grabCursor:true,
-  centeredSlides: true,
-  breakpoints: {
-    0: {
-      slidesPerView: 1,
-    },
-    768: {
-      slidesPerView: 2,
-    },
-    991: {
-      slidesPerView: 3,
-    },
-  },
-});
-
-var swiper = new Swiper(".reviews-slider", {
-  loop:true,
-  spaceBetween: 20,
-  grabCursor:true,
-  centeredSlides: true,
-  breakpoints: {
-    0: {
-      slidesPerView: 1,
-    },
-    768: {
-      slidesPerView: 2,
-    },
-    991: {
-      slidesPerView: 3,
-    },
-  },
 });
 
